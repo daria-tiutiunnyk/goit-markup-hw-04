@@ -127,6 +127,10 @@ body {
   text-align: center;
   letter-spacing: 0.06px;
   text-transform: uppercase;
+  color: var(--white-text-color);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   margin-top: 0;
   margin-bottom: 30px;
@@ -139,8 +143,17 @@ body {
 }
 
 .hero-image {
-  background-image: url("../img/hero/Header-img.jpg");
-  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url("../img/hero/Header-img.jpg");
+  background-color: var(--primary-text-color);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Networks*/
@@ -377,6 +390,7 @@ body {
 .main-button {
   color: var(--white-text-color);
   background-color: var(--background-accent-color);
+  border: 0;
 
   font-weight: 700;
   font-size: 16px;
@@ -427,8 +441,7 @@ footer {
 }
 
 .footer-links,
-.footer-text,
-.footer-copyright {
+.footer-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03px;
@@ -440,8 +453,7 @@ footer {
   margin-bottom: 9px;
 }
 
-.footer-links,
-.footer-copyright {
+.footer-links {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -464,15 +476,6 @@ footer {
 .footer {
   padding-top: 40px;
   padding-bottom: 28px;
-}
-
-.footer-copyright {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 18px;
-  padding-bottom: 21px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center;
 }
 
 .join-margin {
