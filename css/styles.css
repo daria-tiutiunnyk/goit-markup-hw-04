@@ -192,6 +192,9 @@ body {
   padding-top: 94px;
 }
 
+.icon-client2 {
+}
+
 .ad-team {
   background-color: var(--secondary-background-color);
 }
@@ -238,6 +241,32 @@ body {
 
 .features .title {
   margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.features-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: var(--secondary-background-color);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-antenna::before {
+  background-image: url(../img/features/antenna.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../img/features/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../img/features/diagram.svg);
+}
+
+.icon-astonaut::before {
+  background-image: url(../img/features/astronaut.svg);
 }
 
 .service-title {
@@ -255,6 +284,7 @@ body {
 .team .title {
   margin-top: 0;
   margin-bottom: 10px;
+  padding-top: 30px;
   color: var(--title-text-color);
   text-align: center;
 
@@ -335,6 +365,12 @@ body {
 
 .clients-flex li {
   width: 170px;
+  height: 90px;
+  border: 1px solid var(--border-color);
+}
+
+.icon-client2 {
+  position: center;
 }
 
 /*Projects*/
