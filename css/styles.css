@@ -192,9 +192,6 @@ body {
   padding-top: 94px;
 }
 
-.icon-client2 {
-}
-
 .ad-team {
   background-color: var(--secondary-background-color);
 }
@@ -210,9 +207,9 @@ body {
 
 /*Features*/
 
-.features .list {
-  /*display: flex;*/
-}
+/*.features .list {
+  display: flex;
+}*/
 
 .features li {
   width: 270px;
@@ -303,6 +300,10 @@ body {
   letter-spacing: 0.03px;
 }
 
+/*.icon-instagram {
+  background-image: url(../img/networks/instagram.svg);
+}*/
+
 .projects .title {
   margin-top: 0;
   margin-bottom: 4px;
@@ -364,13 +365,13 @@ body {
 }
 
 .clients-flex li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid var(--border-color);
-}
-
-.icon-client2 {
-  position: center;
+  border-radius: 4px;
 }
 
 /*Projects*/
