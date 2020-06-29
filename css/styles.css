@@ -329,9 +329,15 @@ body {
   letter-spacing: 0.03px;
 }
 
-/*.icon-instagram {
-  background-image: url(../img/networks/instagram.svg);
-}*/
+.item-network {
+  width: 44px;
+  height: 44px;
+}
+
+.icon-network {
+  width: 20px;
+  height: 20px;
+}
 
 .projects .title {
   margin-top: 0;
