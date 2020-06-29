@@ -118,6 +118,16 @@ body {
   align-items: baseline;
 }
 
+.icon-envelope {
+  width: 16px;
+  height: 11px;
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 15px;
+}
+
 /*Hero*/
 
 .hero-title {
@@ -241,29 +251,18 @@ body {
   margin-top: 30px;
 }
 
-.features-item::before {
+/*.features-item {
   display: block;
   content: "";
   height: 120px;
   background-color: var(--secondary-background-color);
   background-repeat: no-repeat;
   background-position: center;
-}
+}*/
 
-.icon-antenna::before {
-  background-image: url(../img/features/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../img/features/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../img/features/diagram.svg);
-}
-
-.icon-astonaut::before {
-  background-image: url(../img/features/astronaut.svg);
+.icon-features {
+  width: 70px;
+  height: 70px;
 }
 
 .service-title {
