@@ -202,6 +202,36 @@ body {
   padding-top: 94px;
 }
 
+.icon-client1 {
+  width: 44px;
+  height: 49px;
+}
+
+.icon-client2 {
+  width: 40px;
+  height: 52px;
+}
+
+.icon-client3 {
+  width: 41px;
+  height: 42px;
+}
+
+.icon-client4 {
+  width: 80px;
+  height: 42px;
+}
+
+.icon-client5 {
+  width: 59px;
+  height: 47px;
+}
+
+.icon-client6 {
+  width: 89px;
+  height: 45px;
+}
+
 .ad-team {
   background-color: var(--secondary-background-color);
 }
