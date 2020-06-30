@@ -333,6 +333,8 @@ body {
 .item-network {
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .icon-network,
@@ -343,6 +345,7 @@ body {
 
 .icon-footer {
   fill: var(--white-text-color);
+  text-align: center;
 }
 
 .icon-network {
