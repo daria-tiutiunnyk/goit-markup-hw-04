@@ -124,6 +124,11 @@ body {
   height: 11px;
 }
 
+.icon-envelope:hover,
+.icon-smartphone:hover {
+  color: var(--accent-color);
+}
+
 .icon-smartphone {
   width: 10px;
   height: 15px;
@@ -203,7 +208,12 @@ body {
   padding-top: 94px;
 }
 
+.client-color {
+  color: var(--icon-color);
+}
+
 .icon-client1 {
+  color: var(--icon-color);
   width: 44px;
   height: 49px;
 }
@@ -282,14 +292,13 @@ body {
   margin-top: 30px;
 }
 
-/*.features-item {
-  display: block;
-  content: "";
+.features-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   background-color: var(--secondary-background-color);
-  background-repeat: no-repeat;
-  background-position: center;
-}*/
+}
 
 .icon-features {
   width: 70px;
@@ -331,7 +340,9 @@ body {
 }
 
 .item-network {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -357,15 +368,21 @@ body {
 }
 
 .item-network:hover {
+  /*fill: var(--white-text-color);*/
   background-color: var(--background-accent-color);
 }
 
-.clients-hover {
+.text-hover {
   fill: var(--icon-color);
 }
 
-.clients-hover:hover {
+.text-hover:hover {
   fill: var(--accent-color);
+}
+
+.clients-hover:hover {
+  /*fill: var(--accent-color);*/
+  border-color: var(--background-accent-color);
 }
 
 .projects .title {
