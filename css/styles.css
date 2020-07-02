@@ -75,6 +75,8 @@ body {
 
 .contacts-nav .link {
   color: var(--primary-text-color);
+  display: flex;
+  align-items: baseline;
 }
 
 .contacts-nav {
@@ -122,9 +124,10 @@ body {
 .icon-envelope {
   width: 16px;
   height: 11px;
+  margin-right: 10px;
 }
 
-.icon-envelope:hover,
+.envelope-link:hover .icon-envelope,
 .icon-smartphone:hover {
   color: var(--accent-color);
 }
@@ -132,6 +135,7 @@ body {
 .icon-smartphone {
   width: 10px;
   height: 15px;
+  margin-right: 10px;
 }
 
 /*Hero*/
@@ -209,7 +213,19 @@ body {
 }
 
 .client-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--icon-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+}
+
+.client-color:hover {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .icon-client1 {
@@ -254,6 +270,8 @@ body {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
+  align-items: baseline;
 }
 
 /*Features*/
@@ -363,12 +381,15 @@ body {
   fill: var(--icon-color);
 }
 
-.icon-network:hover {
+/*.icon-network:hover {
+  fill: var(--white-text-color);
+}*/
+
+.item-network:hover .icon-network {
   fill: var(--white-text-color);
 }
 
 .item-network:hover {
-  /*fill: var(--white-text-color);*/
   background-color: var(--background-accent-color);
 }
 
@@ -376,12 +397,8 @@ body {
   fill: var(--icon-color);
 }
 
-.text-hover:hover {
+.client-color:hover .text-hover {
   fill: var(--accent-color);
-}
-
-.clients-hover:hover {
-  /*fill: var(--accent-color);*/
   border-color: var(--background-accent-color);
 }
 
@@ -449,10 +466,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  /*width: 170px;
   height: 90px;
   border: 1px solid var(--border-color);
-  border-radius: 4px;
+  border-radius: 4px;*/
 }
 
 /*Projects*/
